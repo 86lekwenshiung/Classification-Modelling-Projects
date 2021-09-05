@@ -7,14 +7,17 @@ The main objectives of this repo is to document various type of classification m
 - UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/heart+Disease
 - Kaggle : https://www.kaggle.com/ronitf/heart-disease-uci
 - Learning ML and DS Bootcamp 2021 by Daniel Bourke : Udemy
+ 
 
+<a id = 'content'><a/>
+## 3.0 Notebook Summary
 | Project Name | Problem Statement | Notebook Key Feature | Dataset |
 |:---:|:---:|---|:---:|
 | [Heart Problem Classification](https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Credit_Card_Default.ipynb) | Given clinical parameters about a patient, can we predict whether or not they have heart disease? | 1. Introductory EDA<br>2. Modelling : KNN , Logistic Regression , RandomForest<br>3. Hyperparameter tuning : GridSearchCV , RandomizedSearchCV | Heart Disease Dataset from UCI ML Repo |
 | [Credit Risk Classification](https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Credit_Card_Default.ipynb) | Given Customer payment activities and demographic , are they risky or not risky? | 1. Imbalanced Data<br>2. Modelling : Logistic Regression<br>3. Data tuning : Smote , ROS , RUS | Credit Risk Dataset from Kaggle |
 
 ## 4.1 Heart Disease Classification
-
+[(back to top)](#content)
 - 4.1.1 Models Used for Exploration
     - Logistic Regression
     - KNN
@@ -32,12 +35,13 @@ The main objectives of this repo is to document various type of classification m
     - The main takeaway for the next step is given sufficient time , we can continue to try to improve our model or try out other Various model, if more data might not be avaliable at the moment
 ___
 
-## 4.2 Heart Disease Classification
+## 4.2 Credit Risk Classification
+[(back to top)](#content)
 - 4.2.1 Models Used for Exploration
     - Logistic Regression
     - SmoteENN , Random Under Sampler   
 
-- 4.2.2 Findinds
+- 4.2.2 Findings
     - For imbalanced Data , the model will simply predict the majority, resulting in many False Negative or Positive. Though the Accuracy is high , it is a false indication.
     - Other metrics such as f1 score should be used instead.
     - Imbalanced data are required to be tune via undersampling the minority or oversampling the majority.
@@ -47,7 +51,7 @@ ___
 <p/>
 
 <p align = 'center'>
-    <img src = 'https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Image/classification_metrics.PNG' width =25%>
+    <img src = 'https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Image/classification_metrics.PNG' width =35%>
 <p/>
 
  - 4.1.3 Whats Next
