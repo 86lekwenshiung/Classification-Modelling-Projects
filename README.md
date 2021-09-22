@@ -15,6 +15,7 @@ The main objectives of this repo is to document various type of classification m
 |:---:|:---:|---|:---:|
 | [Heart Problem Classification](https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Credit_Card_Default.ipynb) | Given clinical parameters about a patient, can we predict whether or not they have heart disease? | 1. Introductory EDA<br>2. Modelling : KNN , Logistic Regression , RandomForest<br>3. Hyperparameter tuning : GridSearchCV , RandomizedSearchCV | Heart Disease Dataset from UCI ML Repo |
 | [Credit Risk Classification](https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Credit_Card_Default.ipynb) | Given Customer payment activities and demographic , are they risky or not risky? | 1. Imbalanced Data<br>2. Modelling : Logistic Regression<br>3. Data tuning : Smote , ROS , RUS | Credit Risk Dataset from Kaggle |
+| [Telco Churn Classification](https://github.com/86lekwenshiung/Classification-Modelling-Projects/blob/main/Imbalanced%20Classification%20on%20Telco%20Churn.ipynb) | Given customer profile and demographic , are we able to predict potential churn?|  1. Imbalanced Data<br>2. Modelling : Logistic Regression<br>3. Data tuning : Smote || 
 
 ## 4.1 Heart Disease Classification
 [(back to top)](#content)
