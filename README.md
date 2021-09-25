@@ -72,7 +72,7 @@ ___
 * Undersampling and Hybrid Sampling like SMOTEENN does actually improve the Randform Forest Performance. 
 * Oversampling on Logistic Regression do improve the F1 score , however model score performed badly across all metrics.
 
-| Log Reg (No SMOTE) | Logistic Regression | Random Forest (No SMOTE) | Random Forest Classifier |  |
+| Metrics | Log Reg (No SMOTE) | Logistic Regression | Random Forest (No SMOTE) | Random Forest Classifier | 
 |---|---|---|---|---|
 | Accuracy | 0.711600 | 0.590623 | 0.721331 | 0.715249 |
 | Precision | 0.491803 | 0.364958 | 0.647260 | 0.538847 |
