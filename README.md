@@ -60,3 +60,32 @@ ___
    - Explore with various imbalance dataset
 ___
 
+## 4.3 Telco Churn Prediction
+[(back to top)](#content)
+
+ #### Data Imbalance Ratio
+ * Churn : 30%
+ * No Churn : 70%
+ 
+#### Key Insights
+* Oversampling on Random Forest Classifier for this paticular dataset does not appear to significantly inprove the F1 Score.
+* Undersampling and Hybrid Sampling like SMOTEENN does actually improve the Randform Forest Performance. 
+* Oversampling on Logistic Regression do improve the F1 score , however model score performed badly across all metrics.
+
+| Log Reg (No SMOTE) | Logistic Regression | Random Forest (No SMOTE) | Random Forest Classifier |  |
+|---|---|---|---|---|
+| Accuracy | 0.711600 | 0.590623 | 0.721331 | 0.715249 |
+| Precision | 0.491803 | 0.364958 | 0.647260 | 0.538847 |
+| Recall | 0.023024 | 0.568304 | 0.072525 | 0.082502 |
+| F1 Score | 0.043988 | 0.444478 | 0.130435 | 0.143095 |
+| AUC Score | 0.615507 | 0.614876 | 0.660334 | 0.643889 |
+| Gini Score | 0.231013 | 0.229752 | 0.320669 | 0.287778 |
+ 
+#### Next Step
+* Use other classification technique like XGBoost
+* Try other SMOTE Technique like undersampling or combined under and over sample.
+* Use Hyperparameter tuning to improve model.
+* Remove more outliers before parsing through model.
+* Focus on top features and do a polynomial transform.
+* Collect data for more distinct features that are better able to differentiate between churn and no churn.
+ 
